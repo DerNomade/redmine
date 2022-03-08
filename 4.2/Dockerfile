@@ -16,6 +16,8 @@ RUN set -eux; \
 		mercurial \
 		openssh-client \
 		subversion \
+		build-essential \
+		vim \
 		\
 # we need "gsfonts" for generating PNGs of Gantt charts
 # and "ghostscript" for creating PDF thumbnails (in 4.1+)
